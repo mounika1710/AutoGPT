@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation-collpoll">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="siteURL" value="https://www.collpoll.com/team.html" />
+	<parameter name="executionMode" value="headless" />
+        <test name="collpoll automation">
+		<classes>	
+			  <class name="com.collpoll.web.test.home.RequestADemoTest" />
+		</classes>
+	</test>	
+</suite>
